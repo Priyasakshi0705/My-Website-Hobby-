@@ -1,0 +1,204 @@
+body{
+    right: 0px;
+    left:0px;
+    text-align: center;
+    padding-top: 780px;
+    
+}
+#name{
+    font-family: 'Vollkorn', serif; 
+    color:black;
+    font-size: 35px;
+}
+#welcome img{
+    border: 2px solid white;
+    
+}
+#welcome h1{
+    font-family: 'Fleur De Leah', cursive;
+    color:black;
+    font-size: 35px;
+}
+
+#welcome h3{
+   font-family: 'Vollkorn', serif;
+    color:crimson;
+    font-size: 20px;
+}
+
+h2{
+     font-family:monospace;
+    font-size:25px;
+    color:floralwhite;
+}
+#welcome img{
+    border-radius: 50%;
+    width: 500px;
+    height: 300px;
+}
+#welcome{
+    background: linear-gradient(lightpink 20%, Coral 80%);
+    position: absolute;
+    top: 0;
+    right:0;
+    left:0;
+    height: 700px;
+    padding-top: 70px;
+    z-index: 9;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#name{
+    color:darkgreen;
+    font-size: 28px;
+    font-family: sans-serif;
+        
+}
+
+#about{
+    background:linear-gradient(deepskyblue 30%, black 70%);
+     top: 0;
+     right: 0px;
+    left: 0px;;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+
+
+
+ #about h1{
+    text-decoration:underline;
+    padding-top: 10px;
+     font-family: 'Vollkorn', serif;
+     
+}
+#about h2{
+   max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Carattere', cursive;
+}
+
+
+#about{
+    text-align: center;
+}
+
+#book{
+    background:linear-gradient(cadetblue 50% , darkcyan 60%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    right:0;
+    left:0;
+}
+    
+
+.links{
+   
+    display: inline;
+    float: left;
+    padding-right: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    color:burlywood !important;
+    cursor: pointer;
+    text-shadow: 2px 2px white;
+    height: 50px;
+    right:0;
+    left:0;
+}
+.menu{
+   position:fixed;
+    width:100%;
+    top: 0;
+    margin-top:0px;
+    z-index: 10;
+text-align: center;
+        list-style:armenian;
+   background-color:black;
+    right:0;
+    left:0;
+    
+}
+.links:hover{
+    text-decoration: underline;
+
+}
+
+#work{
+    background:linear-gradient(lawngreen 30%, darkcyan 50%);
+    padding:40px;
+    
+}
+#work h1{
+    text-decoration: underline;
+    color:cornsilk;
+    font-family: inherit;
+}
+#inspiration{
+    
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    right:0;
+    left:0;
+    background: linear-gradient(darkorchid 40%, darkslateblue 50%);
+}
+
+#inspiration h1{
+    font-family: 'Carattere', cursive;
+    font-size:35px;
+    text-decoration: underline;
+}
+#inspiration img:hover{
+    transform: scale(0.9);
+}
+
+#inspiration img{
+    border: 5px solid grey;
+    
+}
+
+#inspiration span{
+    padding-right: 30px;
+}
+
+#contact h1{
+    font-family: 'Carattere', cursive;
+    font-size: 50px;
+}
+
+#contact{
+    background-color: lightcoral;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    right:0;
+    left:0;
+    width: 100%;
+     z-index: 9;
+}
+
+#work h1{
+     font-family: 'Vollkorn', serif;
+}
+
+#contact h3{
+    display:inline;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
